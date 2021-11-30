@@ -70,7 +70,7 @@
     "ts-jest": "^26",
     "typescript": "^3.8.3",
     "vue-jest": "^3.0.5",
-    "vue-loader": "^13.0.5",
+    "vue-loader": "^13.7.3",
     "vue-template-compiler": "^2.5.0",
     "vue-test-helpers": "^2.0.0",
     "vue-typed-mixins": "^0.2.0",
