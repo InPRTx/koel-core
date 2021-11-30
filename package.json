@@ -6,7 +6,7 @@
   "dependencies": {
     "@phanan/vuebus": "~3.0.1",
     "alertify.js": "^1.0.12",
-    "axios": "^0.21.2",
+    "axios": "^0.21.4",
     "blueimp-md5": "^2.3.0",
     "compare-versions": "^3.5.1",
     "font-awesome": "^4.7.0",
@@ -28,8 +28,8 @@
     "youtube-player": "^3.0.4"
   },
   "devDependencies": {
-    "@babel/core": "^7.9.6",
-    "@babel/polyfill": "^7.8.7",
+    "@babel/core": "^7.16.0",
+    "@babel/polyfill": "^7.12.1",
     "@babel/preset-env": "^7.9.6",
     "@types/axios": "^0.14.0",
     "@types/blueimp-md5": "^2.7.0",
@@ -74,13 +74,13 @@
     "vue-template-compiler": "^2.5.0",
     "vue-test-helpers": "^2.0.0",
     "vue-typed-mixins": "^0.2.0",
-    "webpack": "^3.6.0",
-    "webpack-node-externals": "^1.6.0"
+    "webpack": "^3.12.0",
+    "webpack-node-externals": "^1.7.2"
   },
   "scripts": {
     "lint": "eslint js --ext=js,vue",
     "type-check": "tsc --noEmit",
-    "test": "yarn lint && cross-env NODE_ENV=test && jest --colors"
+    "test": "npx lint && cross-env NODE_ENV=test && jest --colors"
   },
   "repository": {
     "type": "git",
