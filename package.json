@@ -84,7 +84,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/koel/core.git"
+    "url": "git+https://github.com/InPRTx/koel-core.git"
   },
   "keywords": [
     "koel",
@@ -95,7 +95,6 @@
   "author": "Phan An <me@phanan.net> (https://phanan.net)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/koel/core/issues"
-  },
-  "homepage": "https://koel.dev"
+    "url": "https://github.com/InPRTx/koel-core/issues"
+  }
 }
